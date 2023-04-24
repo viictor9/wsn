@@ -1,0 +1,22 @@
+B) Wireless Connection:-
+
+1.  Drag & Drop 2 PC’s,1 Laptop ,1 Smartphone & 2 wireless Routers(WRT300N) & arrange them.
+
+2.	Now click on PC0-> Physical turn off CPU & then remove existing module from that CPU & then
+Drag & WMP 300N Module in place of it.
+
+3.Follow same steps For Laptop0,PC1.
+
+4.Click on Wireless Router0->Config-> Wireless. Give SSID as R1.
+Wireless Router1->Config-> Wireless. Give SSID as R2.
+
+5. Click on PC0-> Config->Wireless0 &SSID give as SSID as R1.Same FOR Laptop0.
+. Click on PC1-> Config->Wireless0 &SSID give as SSID as R1.Same FOR Smartphone0.
+
+6. Give IPv4 Address, Subnet Mask & SSID to used devices.
+
+Ping Command & Via Message:-
+ping 192.168.0.104
+
+
+

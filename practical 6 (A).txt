@@ -1,0 +1,67 @@
+WSN Practical 6
+
+Aim: Implement a Wireless sensor network simulation.
+
+A) A)	Router Configuration through CLI commands:-
+ 1.Take 2 PC’s, 2 Laptop & 2 Routers (Router-PT) & Switch -PT & arrange them.
+
+
+CLI commands for Router 0:-
+
+enable
+config t 
+#int Fa0/0
+#ip address 10.0.0.1  255.0.0.0
+#no shut
+#exit
+#router rip
+#network 10.0.0.0
+#network 20.0.0.0
+#network 30.0.0.0
+#network 40.0.0.0
+#network 50.0.0.0
+
+
+Configuration of Router1:-
+
+CLI commands for Router1:-
+#ip address 40.0.0.1 255.0.0.0
+#no shut
+
+#exit
+#int Fa1/0
+#ip address 50.0.0.1  255.0.0.0
+#no shut
+
+#exit
+#int Se2/0
+#ip address 30.0.0.2   255.0.0.0
+#no shut
+
+
+#exit
+#router
+
+#router rip 
+#network 10.0.0.0
+#network 20.0.0.0
+#network 30.0.0.0
+#network 40.0.0.0
+#network 50.0.0.0
+
+
+2.Click on PC0 and click on physical tab.
+3.Turn off the CPU and Remove the fastethernet module and install PT-HOST-NM-1W-A and turn on the CPU.
+4.A connection will be made between AccessPoint and PC0.
+5.Click on PC1 and click on physical tab.
+6.Repeat step3 and see if the connection is done between PC1 and AccessPoint.
+7.Click on PC0 and set the IP config.
+8.Click on PC1 and set the IP config.
+9.Click on Laptop0 and set the IP config.
+10.Click on Laptop1 and set the IP config.
+
+Ping Command & Via Message:-
+ 
+ping 30.0.0.1
+
+

@@ -1,0 +1,26 @@
+Practical 3
+ 
+Aim: Create and simulate a simple adhoc network
+
+Steps 
+1. Start the Omnet++ IDE, and import the project via File ->Import->
+General-> Existing Projects into Workspace
+
+2.Now Build the Project by Project -> Build or hit Ctrl+b
+
+3.Now you should be able to launch example simulations 
+
+4. Then open inet (examples)
+
+5. Right click on adhoc -> New -> Folder .Name  the Folder asa simple
+ Adhoc
+
+6.Right Click on newly Created folder New -> Network Description Files (NED) file
+(Name it as Net 1 ) -> Generated Wizards->
+ New Managed Mobility Wireless Network Wizard
+
+7.Config the option if needed, click on next.
+
+8. Then click on Finish 
+
+9.Now execute by Right Click on ned File Run as -> OMNET++ Simulation

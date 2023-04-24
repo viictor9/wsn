@@ -1,0 +1,22 @@
+WSN Practical 8	
+Aim: Create a mobile network using Cell Tower ,
+Central Office Server, Web Browser and Web Server, 
+Simulate connection between them
+
+Steps:-
+1.Create a network using smartphone, wireless router WRT300N, 
+Hub-pt,1841 Router, centraloffice-server, Cell-Tower.
+
+2.Connect cell tower and central office server using coaxial cable.
+
+3.Connect wireless router WRT300N,Hub-pt, 1841, central-office-server 
+using copper straight through wire.
+
+4.Click on wireless router.in config tab select Internet.in
+internet choose ip configuration as static and 
+set IP address and default gateway.
+
+5.Click on router 1841.In config table select interface and 
+give IP address.
+
+6.Click on smartphone and ping router 1841.

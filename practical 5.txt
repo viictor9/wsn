@@ -1,0 +1,43 @@
+	Practical 5 
+Aim: Understanding, Reading and Analyzing Routing Table of a network
+
+Steps 
+
+1. Take 2 PC-PT  and 1 PT- Router coonect it wires
+ 
+2.Click on PC-PT0 go in Desktop click on ip Config 
+Ipv4 Address :130.0.0.1
+Default Gateway :130.0.0.2
+
+2.Click on PC-PT1 go in Desktop click on ip Config 
+Ipv4 Address :140.0.0.1
+Default Gateway :140.0.0.2
+  
+
+3.Click on router and go in CLI 
+Commands :
+no 
+enable
+config t
+#int FA0/0
+#ip address 130.0.0.2   255.255.0.0
+no shut
+exit 
+
+
+#int Fa1/0
+#ip address 140.0.0.2    255.255.0.0
+#no shut
+#exit
+
+router rip
+#network 130.0.0.0
+#network 140.0.0.0
+#exit
+#exit
+
+#show ip route
+
+
+4. Click on pc0 go in cmd 
+ping 140.0.0.1

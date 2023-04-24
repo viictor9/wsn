@@ -1,0 +1,36 @@
+WSN Practical 7
+
+Aim: Create MAC protocol simulation implementation for wireless sensor Network.
+
+Steps:-
+
+1.Create the following network
+
+2.Click on Every laptop and change the interface to WPC300n module.
+
+3.Copy the MAC address of each component as follows.
+
+4.We note the following MAC address and convert them to the following form
+Component		MAC Address	Converted MAC Address
+Laptop0			000C.CF8D.E7E0	00:0C:CF:8D:E7:E0
+PC0			0001.C967.9504	00:01:C9:67:95:04
+PC1			000D.BD14.DDCC	00:0D:BD:14:DD:CC
+SmartPhone0		0002.4A2A.B871	00:02:4A:2A:B8:71
+	
+
+
+5.Now we add few address in the wireless MAC filter of the Wireless Router 
+and then use the given options for either allow or deny the wireless access.
+
+6.As seen in above screenshot we add the MAC address of 
+Laptop0,TabletPC,SmartPhone0 in the list so as to deny them accessing 
+the Wireless network and then save the settings.
+The result so obtained is as shown, the three devices denied any wireless
+ connectivity.
+
+
+7.Similarly we can change the settings so that the above devices
+ get wireless connectivity and the remaining devices do not get 
+the wireless connectivity.
+
+8.And save the setting and get the following

@@ -1,0 +1,37 @@
+WSN Practical 9
+
+Aim: Simulate Mobile Adhoc Network with Directional Antenna.
+
+Steps:
+
+1.Create the following network :-1Fan,1Smartphone,
+1 Monitor Detector,1DLC100 Home Gateway0.
+
+2.Click on the fan and do the following.
+
+3.In the advanced setting do the following for the network adapter.
+
+4.For the motion detector do the following.
+
+5.In the advanced setting do the following for the network adapter
+
+6.For the smartphone change the SSID to the SSID in the Home Gateway0.
+As seen above the SSID is HomeGateway, we use the same and 
+set the SSID in the smartphone0.
+
+7.All the devices are now connected to the Home Gateway.
+
+8.Now open the Web browser of the SmartPhone and type the
+ IP address of the HomeGateway
+
+Username:- admin
+Password:- admin
+
+9.After logging click on conditions and do the following
+
+Add another condition as follows
+
+10.Press the go button adding the two conditions.
+
+11.In order to turn ON the fan Press the ALT key and 
+left click the mouse over the sensor.
