@@ -1,5 +1,7 @@
 Practical 3
  
+https://drive.google.com/drive/folders/1jXTNPjzdSsC2a8uqdx_-7dKtMYsy4WOX
+ 
 Aim: Create and simulate a simple adhoc network
 
 Steps 
